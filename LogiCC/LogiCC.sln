@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test\Test.csproj", "{7A6A5A60-9D6A-4A83-9562-30BFA2005C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogiCC", "LogiCC\LogiCC\LogiCC.csproj", "{7052F848-9BBB-474E-BE1C-4B875B337760}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A6A5A60-9D6A-4A83-9562-30BFA2005C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6A5A60-9D6A-4A83-9562-30BFA2005C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6A5A60-9D6A-4A83-9562-30BFA2005C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6A5A60-9D6A-4A83-9562-30BFA2005C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7052F848-9BBB-474E-BE1C-4B875B337760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7052F848-9BBB-474E-BE1C-4B875B337760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7052F848-9BBB-474E-BE1C-4B875B337760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7052F848-9BBB-474E-BE1C-4B875B337760}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

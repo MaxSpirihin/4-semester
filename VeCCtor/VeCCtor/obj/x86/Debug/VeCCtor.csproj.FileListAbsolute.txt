@@ -1,0 +1,33 @@
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\bin\Debug\VeCCtor.exe
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\bin\Debug\VeCCtor.pdb
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\MainWindow.baml
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\MainWindow.g.cs
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\App.g.cs
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\VeCCtor_MarkupCompile.cache
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\VeCCtor.g.resources
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\VeCCtor.Properties.Resources.resources
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\VeCCtor.csproj.GenerateResource.Cache
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\VeCCtor.exe
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\VeCCtor.pdb
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\max\documents\visual studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\VeCCtor_MarkupCompile.lref
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\VeCCtor.csprojResolveAssemblyReference.cache
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\obj\x86\Debug\VeCCtor.exe
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\obj\x86\Debug\VeCCtor.pdb
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\bin\Debug\VeCCtor.exe
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\bin\Debug\VeCCtor.pdb
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\obj\x86\Debug\VeCCtor.csprojResolveAssemblyReference.cache
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\obj\x86\Debug\App.g.cs
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\obj\x86\Debug\VeCCtor_MarkupCompile.cache
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\obj\x86\Debug\VeCCtor_MarkupCompile.lref
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\obj\x86\Debug\MainWindow.baml
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\obj\x86\Debug\VeCCtor.g.resources
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\obj\x86\Debug\VeCCtor.Properties.Resources.resources
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor back up\VeCCtor\obj\x86\Debug\VeCCtor.csproj.GenerateResource.Cache
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor\VeCCtor\bin\Debug\VeCCtor.exe.config
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor\VeCCtor\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor\VeCCtor\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\Interop.Win32_TPMLib.dll
+C:\Users\Max\Documents\Visual Studio 2010\Projects\VeCCtor\VeCCtor\obj\x86\Debug\VeCCtor.csproj.ResolveComReference.cache

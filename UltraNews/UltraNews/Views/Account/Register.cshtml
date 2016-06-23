@@ -1,0 +1,44 @@
+﻿@model UltraNews.Models.RegisterModel
+@{
+    Layout = @Url.Content("~/Views/Shared/LogonLayout.cshtml");
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+</head>
+<body>
+    <div>
+        <form method=post>
+
+         <table align="center">
+                
+                <tr><td align="center" >@Html.ValidationSummary()  </td></tr>
+                <tr><td align="center" class="mainText">Введите логин*:</td></tr>
+                <tr><td align="center"><input type="text" name="Login" value=@Model.Login/> </td></tr>
+                <tr><td align="center" class="mainText">Введите пароль*:</td></tr>
+                <tr><td align="center"><input type="password" name="Password" /> </td></tr>
+                <tr><td align="center" class="mainText">Повторите пароль*:</td></tr>
+                <tr><td align="center"><input type="password" name="RepeatPassword" /> </td></tr>
+                <tr><td align="center" class="mainText">Имя:</td></tr>
+                <tr><td align="center"><input type="text" name="Name" value=@Model.Name /> </td></tr>
+                <tr><td align="center" class="mainText">Фамилия:</td></tr>
+                <tr><td align="center"><input type="text" name="FamilyName"   value=@Model.FamilyName /> </td></tr>
+                <tr><td align="center" class="mainText">Дата рождения:</td></tr>
+                <tr><td align="center"><input type="date" name="BirthDay"   value=@Model.BirthDay /> </td></tr>
+                <tr><td align="center" class="mainText">*Поля, отмеченный звездочкой  обязательны для заполнения </td></tr>
+                <tr><td align="center" class="mainText">**Вводите все данные корректно, их нельзя будет изменить </td></tr>
+                <tr><td align="center"><p><input type="submit" value="Зарегистрироваться" /> </p></td><td></td></tr>
+            </table>
+
+            <a href="Login" align="center"><p class="mainText">Есть логин и пароль?</p></a>
+        </form>
+
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+﻿      
+  <tr><td> <table id="comments" class="table table-striped table-hover" id="news">  @foreach (UltraNews.Models.Comment c in Model)
+        {
+            <tr>
+                 <td >
+                    <a href="/Account/ShowProfile/@c.UserId">@c.UserName </a>
+                 
+                    <div>@c.Text</div>
+            </td></tr>
+            
+        }
+
+        </table>   </td></tr>  

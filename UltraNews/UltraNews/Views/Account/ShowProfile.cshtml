@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "ShowProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<table align="center">
+    <tr><td align="center"><h3 class="mainText" >Профиль: @Model.FullName </h3></td></tr>
+    <tr><td align="center"><div class="mainText" >Логин: @Model.Login </div></td></tr>
+    <tr><td align="center"><div class="mainText" >Имя: @Model.Name </div></td></tr>
+    <tr><td align="center"><div class="mainText" >Фамилия: @Model.FamilyName </div></td></tr>
+    
+    @if (Model.BirthDay != null)
+    {
+    <tr><td align="center"><div class="mainText" >Дата рождения: @Model.BirthDay </div></td></tr>
+    }
+    
+    <tr><td align="center"><a href="/News/List"><h2 class="mainText">На главную</h2></a></td></tr>
+    
+    
+     @if (HttpContext.Current.User.Identity.Name == Model.Login)
+     {
+          <tr><td align="center"><a href="/Account/Logoff"><h2 class="mainText">Выйти из профиля</h2></a></td></tr>
+     }
+        
+     
+     
+     
+
+
+      
+
+     @if ((Roles.Provider.IsUserInRole(HttpContext.Current.User.Identity.Name, "admin")) &&
+         (HttpContext.Current.User.Identity.Name == Model.Login))
+     {
+     <tr><td align="center"><a href="/Admin/List"><h2 class="mainText">Админ-панель</h2></a></td></tr>
+     }
+     
+     </td></tr>
+</table>
+
+

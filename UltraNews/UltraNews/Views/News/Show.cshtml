@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Show";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+ <table align="center">
+
+       <tr><td><table class="news">
+            <tr align=center><td><h2>@ViewBag.News.Title</h2></td></tr>
+           <tr align=center><td><div> @Html.Raw(ViewBag.News.Text) </div></td></tr>
+            <tr align="right"  class="commentEnd"><td class="commentEnd"><p>@ViewBag.News.Date</p></td></tr>
+
+
+
+        @Html.Partial("CommentsView")
+
+         @using (Ajax.BeginForm("AddComment", new AjaxOptions { UpdateTargetId = "comments",}))
+        {
+            <tr align=center><td><textarea name="Text" cols="50"  id="text"> </textarea> </td></tr>
+            <input type="hidden"  value=@ViewBag.News.Id name="NewsId"  />
+             <tr align=center><td><input type="submit" value="Комментировать" id="add"/></td></tr>
+        }
+
+
+        </table></td></tr>
+
+ </table>
+
+
+ <script type="text/javascript">
+     $(function () {
+
+         $("img").click(function () {
+             alert("click");
+         });
+
+
+
+     });
+
+
+ 
+ </script>
+
+

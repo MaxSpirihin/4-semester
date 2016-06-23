@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UltraNews</title>
+     <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+     @Scripts.Render("~/scripts/jquery-1.7.1.js")
+     @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.js")
+     @Scripts.Render("~/scripts/bootstrap.js")
+</head>
+
+<body>
+    <table width=100% id="title">
+        <tr>
+            <td>
+                <a href="/News/List">
+                <img width = 30%  src = @Url.Content("~/Content/Images/Title.png")/> 
+                </a>
+            </td>
+
+
+            <td>
+            
+            </td>
+
+            <td  align=right>
+                
+                @if (HttpContext.Current.User.Identity.IsAuthenticated)
+                {
+                <a  href ="/Account/ShowProfile" ><h3>
+                @(new UltraNews.Models.SqlCore().Users.Where(u => u.Login == HttpContext.Current.User.Identity.Name).FirstOrDefault().FullName)</h3> </a>
+                }
+                else
+                {
+                    <a href ="/Account/Login" ><h2>Войти</h2> </a>
+                }
+                    
+                </td>
+
+
+
+        </tr>
+    </table>
+
+
+
+    <!-- ВРЕМЕННЫЙ КОСТЫЛЬ, ЧТОБЫ ПОД ТАБДИЦЕЙ БЫЛА ЕЩЕ ОДНА ТАКАЯ ЖЕ, ЧТОБЫ ПРОКРУТКА НОРМ БЫЛА -->
+    <table width=100%>
+        <tr>
+            <td>
+                <a href="/News/List">
+                <img width = 30%  src = @Url.Content("~/Content/Images/Title.png")/> 
+                </a>
+            </td>
+
+            <td >
+                <a href ="Account/Logon" ><h3>Войти</h3> </a>
+            </td>
+        </tr>
+    </table>
+    @RenderBody()
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

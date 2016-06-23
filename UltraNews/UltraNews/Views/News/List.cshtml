@@ -1,0 +1,38 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <div>
+        <table align="center">
+        @foreach (UltraNews.Models.News n in Model)
+        {
+            <tr><td> <table class="news">
+            
+            <tr><td><h2><a href="/News/Show/@n.Id">@n.Title</a></h2></td></tr>
+            <tr><td><p>@if (n.Text.Length > 500)
+                       {
+                       @(n.Text.Substring(0, 500) + "...")
+                       }
+                       else
+                       {
+                   @(n.Text)
+                       }</p></td></tr>
+            <tr align="right"><td><p>@n.Date</p></td></tr>
+            
+            
+            
+            </table></td></tr>
+            
+
+            
+        } 
+        
+        </table>
+
+
+            <footer>
+    <p class="mainText" align="center" >Все права защищены © 2015</p>
+    
+    </footer>
+    </div>

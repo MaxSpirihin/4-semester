@@ -1,0 +1,38 @@
+﻿@{
+    Layout = @Url.Content("~/Views/Shared/LogonLayout.cshtml");
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+</head>
+<body>
+
+    <div>
+        <form method=post>
+
+        <table align="center">
+                <tr><td align="center" >@Html.ValidationSummary()  </td></tr>
+                <tr><td align="center"><p class="mainText" >Введите логин: </p></td></tr>
+                <tr><td align="center"><input type="text" name="Login" /> </td></tr>
+                <tr><td align="center"><p class="mainText">Введите пароль:</p></td></tr>
+                <tr><td align="center"> <input type="password" name="Password" /> </td></tr>
+                
+                <tr><td align="center" class="mainText" >
+                Запомнить меня:  
+                <input id="Remember" type="checkbox" value="true" name="RememberMe" />
+                <input type="hidden" value="false" name="RememberMe" />
+                </td></tr>
+
+                <tr><td align="center"><input type="submit" value="Войти" /> </td><td></td></tr>
+            </table>
+
+            <a href="Register"> <p class="mainText" align="center" >Зарегистрироваться</p></a>
+
+        </form>
+    </div>
+</body>
+</html>
